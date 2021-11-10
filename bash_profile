@@ -2,16 +2,6 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completionexport DB_HOST="10.16.36.52"
 
-export PORT="5432"
-export DB_USERNAME="emc4jq2"
-export DB_PASSWORD="OrangeMethod"
-export DB_NAME="emc4jq2_tool_rental"
-export SSL_MODE="disable"
-
-export PG_USER="root"
-export PG_PASSWORD="om"
-export PG_HOST="ld19136.homedepot.com"
-
 alias pg_start="launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"
 alias pg_stop="launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"
 
